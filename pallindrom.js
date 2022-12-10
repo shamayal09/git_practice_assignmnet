@@ -1,24 +1,21 @@
 
-
-
-
-
-
-    let i = 0;
-    
-    let j = str.length - 1;
-    
-       while ( i < j){
-         if (str[i] != str[j]){ 
-           return console.log("No")
-           
-      }
-    
-    i++;
-    j--
+    function checkPalindrome(N, str) {
+   let bag="";
+    for (let i=N-1;i>=0;i--){
+        bag=bag+str[i];
+        
     }
     
-      console.log("Yes")
-      
+    if(str==bag){
+        console.log("Yes")
+    } else {
+        console.log("No")
+    }
+    
+   function checkPalindrome (6, "racecar")
+  
+
+
+
     
     
